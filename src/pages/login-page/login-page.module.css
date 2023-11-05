@@ -1,0 +1,23 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.text-field input {
+  text-align: left;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-icon {
+  position: absolute;
+  left: 85%;
+  top: 30%;
+  cursor: pointer;
+}
